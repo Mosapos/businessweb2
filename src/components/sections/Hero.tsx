@@ -6,16 +6,17 @@ import { ArrowDownIcon } from '@heroicons/react/24/outline';
 export default function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center bg-gradient-to-b from-primary/5 to-transparent">
-      <div className="section-container text-center">
+      <div className="max-w-6xl mx-auto px-4 py-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
+          className="text-center"
         >
-          <h1 className="heading-1 mb-6">
-            Hi, I'm <span className="text-primary">Your Name</span>
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
+            Hi, I&apos;m <span className="text-primary">Your Name</span>
           </h1>
-          <p className="body-text max-w-2xl mx-auto mb-8">
+          <p className="text-base md:text-lg text-text-light max-w-2xl mx-auto mb-8">
             A passionate developer focused on creating beautiful and user-friendly applications
             that solve real-world problems.
           </p>
