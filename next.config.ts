@@ -5,6 +5,12 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Ensure trailing slashes for GitHub Pages
+  trailingSlash: true,
+  // Disable server components for static export
+  experimental: {
+    appDir: true,
+  },
 };
 
 export default nextConfig;
