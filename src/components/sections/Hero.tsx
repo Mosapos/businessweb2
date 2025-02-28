@@ -14,24 +14,24 @@ export default function Hero() {
           className="text-center"
         >
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-            Hi, I&apos;m <span className="text-primary">Your Name</span>
+            Hi, My name is <span className="text-primary">Monika</span>
           </h1>
           <p className="text-base md:text-lg text-text-light max-w-2xl mx-auto mb-8">
-            A passionate developer focused on creating beautiful and user-friendly applications
-            that solve real-world problems.
+            A Experienced Delivery Manager, with +16 years of experience in diverse business areas. 
+            I support teams to deliver projects.
           </p>
           <div className="flex gap-4 justify-center">
             <a
               href="#contact"
               className="px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors"
             >
-              Contact Me
+              Get in Touch
             </a>
             <a
-              href="#about"
+              href="#projects"
               className="px-6 py-3 border border-primary text-primary rounded-lg hover:bg-primary/5 transition-colors"
             >
-              Learn More
+              View My Work
             </a>
           </div>
         </motion.div>
@@ -43,7 +43,7 @@ export default function Hero() {
         transition={{ delay: 1, duration: 0.5 }}
       >
         <a href="#about" className="flex flex-col items-center text-text-light hover:text-primary transition-colors">
-          <span className="text-sm mb-2">Scroll Down</span>
+          <span className="text-sm mb-2">Explore More</span>
           <ArrowDownIcon className="w-5 h-5 animate-bounce" />
         </a>
       </motion.div>
