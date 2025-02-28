@@ -26,20 +26,13 @@ export default function About() {
             className="space-y-6"
           >
             <p className="text-lg text-text-light">
-              Hello! I&apos;m Monika, a Full Stack Developer with a passion for creating
-              innovative web solutions. With a strong foundation in both front-end and
-              back-end development, I specialize in building scalable and efficient
-              applications.
+              I am experienced Delivery Manager. I support companies with their projects and delivery process. 
+              I have a strong foundation in project management, with a knowledge of Agile, Scrum and Kanban.
+              My experience includes working with different technologies like Magento, Shopify Liquid, Shopify Hydrogen, SAP Hybris Spartacus, Medusa.
             </p>
             <p className="text-lg text-text-light">
-              My journey in tech began with [Your Background/Education], and since then,
-              I&apos;ve been continuously learning and adapting to new technologies and
-              methodologies.
-            </p>
-            <p className="text-lg text-text-light">
-              When I&apos;m not coding, you can find me [Your Interests/Hobbies]. I believe
-              that maintaining a good work-life balance helps fuel creativity and
-              problem-solving abilities.
+              I am eager to learn new technologies. I am currently fascinated by AI and its applications.
+              Seeing the potential of AI to transform businesses, I exploring how it can be used with the business aspects and projects delivery, to improve the efficiency and way of working.
             </p>
           </motion.div>
 
@@ -55,19 +48,15 @@ export default function About() {
               <ul className="space-y-3">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                  <span>Based in [Your Location]</span>
+                  <span>Based in Wrocław, working remotely</span>
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                  <span>[X] years of development experience</span>
+                  <span>16 years of development experience</span>
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                  <span>[Relevant Achievement/Certification]</span>
-                </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
-                  <span>[Interesting Fact About You]</span>
+                  <span>Certified Project Manager</span>
                 </li>
               </ul>
             </div>
